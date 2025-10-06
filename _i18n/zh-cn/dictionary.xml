@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="doc">对StorageGRID的支持</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您现在可以直接从BlueXP发现您的StorageGRID系统。发现StorageGRID可为您提供混合多云数据的完整视图。</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="doc">新的高级视图</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">从StorageGRID 11.8 开始，您可以使用熟悉的 Grid Manager 界面从BlueXP管理您的StorageGRID系统。</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">了解如何使用高级视图管理StorageGRID</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block> 。</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">能够审查和批准StorageGRID管理接口证书</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">现在，您可以在从BlueXP发现StorageGRID系统时审查和批准StorageGRID管理接口证书。您还可以审查并批准已发现网格上的最新StorageGRID管理接口证书。</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">了解如何在系统发现期间审查和批准服务器证书。</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">需要BlueXP访问角色</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">了解BlueXP访问角色。</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">现在，您需要以下访问角色之一来查看、发现或管理BlueXP中的StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储健康专家*。<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP现在是NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console发行说明</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">有关更改的详细信息，请参阅<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP、NETAPP 徽标和NetApp商标页面上列出的标志是NetApp, Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp拥有的专利的最新列表可以在以下位置找到：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关NetApp软件中使用的第三方版权和许可的信息。</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp Console通知</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="list-text"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="f79ebde6a1a4f17ac930ceaedb344ad5" category="inline-link-macro">有关StorageGRID系统的NetApp Console管理的通知</block>
+  <block id="411334f05b81714b2d8f3d3bc5ae0a2e" category="list-text"><block ref="411334f05b81714b2d8f3d3bc5ae0a2e" category="inline-link-macro-rx"></block></block>
+  <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">已知问题指明了可能会阻止您成功使用此版本产品的问题。</block>
+  <block id="63c43c1298dbd351ea9b45ab7bf8b811" category="doc">在NetApp Console中管理StorageGRID 的已知问题</block>
+  <block id="26e1ae357ea5f677dc708693f63d2234" category="section-title">更新后的显示名称未出现在NetApp Console中</block>
+  <block id="c5bdd83865407be8b653c1cd7dcd9571" category="paragraph">如果您使用重命名过程为站点或网格定义新的显示名称，则新的显示名称不会反映在NetApp Console中。在NetApp Console中，系统继续显示系统名称而不是新的显示名称。</block>
+  <block id="4184c004c3d306eac4540e4aefb2f6a9" category="section-title">过滤警报时出错</block>
+  <block id="57e6970cf13aa98ffd7faf72c61853bb" category="paragraph">使用高级视图时，过滤警报页面的内容会导致错误。</block>
+  <block id="1998a0486c5c4169c29f007cc908c1d7" category="section-title">编辑电网联合连接时出错</block>
+  <block id="5094a282c5a9bba09561ad9a388f91c5" category="paragraph">使用高级视图时，编辑网格联合连接时可能会遇到网关超时错误。</block>
+  <block id="27239bc2e8ca18aae4bd57bf98d64a93" category="summary">使用高级视图从NetApp Console管理StorageGRID系统。此视图使您能够在NetApp Console中使用 Grid Manager。</block>
+  <block id="e11189f51e944c56ae93486d4b5db590" category="doc">使用NetApp Console中的网格管理器管理StorageGRID</block>
+  <block id="d5c34e6c10be47a51e62aadafb90e8f8" category="paragraph">使用高级视图从控制台管理StorageGRID系统。此视图使您能够从控制台使用网格管理器。</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">所需的NetApp Console角色：</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">了解访问角色。</block>
+  <block id="647e72c68ac2b108fc4f872a4408d77a" category="paragraph">存储管理员或系统健康专家。<block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">支持的配置</block>
+  <block id="82f590009d4efe1d732fe71c4acb2ae2" category="paragraph">从StorageGRID 11.8 开始，Grid Manager 在控制台中可用。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="faf4d707a11bae8eab65893c9e387e8f" category="paragraph">控制台无法执行以下网格管理器操作。如果需要执行这些操作，请直接登录网格管理器。</block>
+  <block id="e56c7ead55fc1e5f499eae95a4a912b3" category="cell">网格管理器菜单</block>
+  <block id="5156295a022e21df95e1e260394ee411" category="cell">控制台无法执行的操作</block>
+  <block id="8f9bfe9d1345237cb3b2b205864da075" category="paragraph">用户</block>
+  <block id="f37627b09b882611b44ff399a9c378e9" category="list-text">退出链接</block>
+  <block id="baeaf581efec254c255d808076ebb8b5" category="list-text">API 文档链接</block>
+  <block id="0b39c5aca15b84b1ad53a94d6b3feb78" category="list-text">更改密码</block>
+  <block id="187c6ad3a74cc93ac6c2229d398e383e" category="paragraph">节点</block>
+  <block id="3a4d215d512d4ae5edd991d81bf9972e" category="list-text">您无法从节点 &gt; SANtricity System Manager 选项卡访问SANtricity System Manager。</block>
+  <block id="97e48133192510ab2ce4a4c7af40d7c1" category="list-text">查看警报时，您可能无法选择推荐操作中的所有链接。例如，指向不受支持的网格管理器页面的链接将不起作用。</block>
+  <block id="ab46b0da4c689d676afbc74038c40f71" category="paragraph">租户</block>
+  <block id="52e8a870e31fcf345b37b10609383a35" category="paragraph">您无法从创建租户向导或租户页面登录租户帐户。</block>
+  <block id="ec823db65eff78b29b3aa37df2c9117a" category="paragraph">控制台目前不支持租户管理器。虽然您可以从控制台创建新的租户帐户，但租户用户无法从控制台登录他们的帐户。</block>
+  <block id="45a63ab8cbf11a8d14e5315e7199fcbd" category="paragraph">ILM</block>
+  <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">存储等级链接</block>
+  <block id="254f642527b45bc260048e30704edb39" category="paragraph">配置</block>
+  <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">电网密码</block>
+  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">流量分类 &gt; 指标</block>
+  <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">安全设置 &gt; 浏览器不活动超时</block>
+  <block id="f349dbd269e091419d25308532e10fa9" category="list-text">单点登录</block>
+  <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">SNMP 代理 &gt; BMC接口的 MIB 文件</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="paragraph">维护</block>
+  <block id="1c099fee7c6387b021909926b4fbcf98" category="list-text">恢复包</block>
+  <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">软件更新</block>
+  <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">支持</block>
+  <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">网格拓扑</block>
+  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">日志</block>
+  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">指标，包括 UI 中其他地方到 Prometheus 指标和 Grafana 仪表板的所有链接。</block>
+  <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">所有传统警报选项</block>
+  <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">链路成本</block>
+  <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">NMS实体</block>
+  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">切换到高级视图</block>
+  <block id="4fd2f0ed2a27d6ecfe750ed0f462f569" category="paragraph">打开StorageGRID系统并选择高级视图选项。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
+  <block id="f244da7e15f3999df2831b63141e093f" category="list-text">从*系统*页面打开StorageGRID系统。</block>
+  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">在右上角，选择*切换到高级视图*。</block>
+  <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">使用 Grid Manager 管理StorageGRID系统。</block>
+  <block id="b7271b5e81c9ac4c11c4746d6b80a538" category="list-text">如果需要，选择“切换到标准视图”以通过控制台返回标准视图。</block>
+  <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">获取网格管理器帮助</block>
+  <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID文档</block>
+  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">如果您需要使用网格管理器的帮助，请参阅<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block>以获得分步说明。</block>
+  <block id="d151acbef027ea9883e40b32274c5a04" category="summary">发现本地环境中的StorageGRID系统，然后使用 Grid Manager 直接从NetApp Console管理它们。</block>
+  <block id="c10ae48739661aebcdebc04124762406" category="doc">将StorageGRID系统添加到NetApp Console</block>
+  <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">使用 Grid Manager 直接从NetApp Console管理您的 StorageGrid 系统。</block>
+  <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">了解NetApp Console访问角色。</block>
+  <block id="6fd600090915668444ea7d162325adc5" category="paragraph">存储管理员或系统健康专家。<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">您需要以下内容：</block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">联系您的组织管理员。</block>
+  <block id="f989c70e8b10ec6677c8508c4ad6716d" category="list-text">使用版本 3.9.43 或更高版本的NetApp Console代理。您必须具有组织管理员角色才能安装控制台代理。如果您不知道您的组织是否有控制台代理，或者是否需要创建一个控制台代理，请联系您的NetApp Console管理员。<block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
+  <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">管理节点的域名或IP地址。</block>
+  <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理节点的管理员凭据。</block>
+  <block id="7946381c1469da9982f0ec23675e074e" category="list-text">安装在StorageGRID系统上的管理接口证书。</block>
+  <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">了解有关在StorageGRID上安装管理接口证书的更多信息</block>
+  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
+  <block id="c27deb5ada399336a287848889d2032c" category="list-text">从导航菜单中，选择*存储&gt;管理*。</block>
+  <block id="a2bbc305e061bf1ea8c419672c377672" category="list-text">选择*系统*。</block>
+  <block id="5211458073f915c9abf57481c61698ad" category="list-text">选择*添加系统*并选择*本地*。</block>
+  <block id="c1337bb911d61c7e24f0143c98280728" category="list-text">在* StorageGRID*旁边，选择*发现*。</block>
+  <block id="8cf19817e4e7fd9da0b6ce8acdb567b7" category="list-text">在控制台中的“StorageGRID 集群详细信息”页面上，输入管理节点的域名或 IP 地址、节点的凭据，然后选择“添加”。</block>
+  <block id="c11467c66c9d20aefade3d8c6a472be6" category="list-text">控制台自动检索StorageGRID管理接口证书。在“批准证书”页面上，查看证书详细信息。</block>
+  <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">要使用不同的证书，请首先在StorageGRID系统上进行设置。</block>
+  <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">在StorageGRID上安装管理接口证书</block>
+  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">在您的本地StorageGRID系统中，请按照以下说明操作：<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block> 。</block>
+  <block id="9d802d0448e390fa63540342de811f28" category="list-text">在StorageGRID系统中配置证书后，在控制台中的“批准证书”页面上选择“*取消*”。</block>
+  <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">在“StorageGRID 集群详细信息”页面上，选择“添加”。</block>
+  <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">或者，选择*复制证书*来复制证书的详细信息。如果需要，您可以使用证书详细信息执行额外的验证。</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">执行以下操作之一：</block>
+  <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">选择*批准证书*以使用该证书。</block>
+  <block id="1ca040430e0978a3f2d4ae1c17bbc8b5" category="paragraph">NetApp Console显示成功消息，并通过验证已批准的证书来保护StorageGRID服务器和控制台代理之间的所有通信。</block>
+  <block id="57451516de60f65a613633c72a543441" category="list-text">选择“*取消*”以结束发现过程而不验证证书。</block>
+  <block id="8573a317227bda2e8dcf6245b9035011" category="paragraph">例如，如果您收到一条错误消息，通知您需要更新StorageGRID管理证书，则可以选择“*取消*”。</block>
+  <block id="0dc9de1471d80fc98eb6b0151fafbffa" category="paragraph">要更新证书，请转到您的StorageGRID系统，更新证书，然后从NetApp Console重新启动发现过程。</block>
+  <block id="4209bb3c02890580b6466f7208bac3aa" category="summary">在NetApp Console中发现StorageGRID系统后，您可以使用 NetApp 的数据服务进行备份、数据分层和数据同步。</block>
+  <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">将NetApp数据服务与StorageGRID结合使用</block>
+  <block id="2cc401acf1743eee8bd1261bef16ae50" category="paragraph">在NetApp Console中发现StorageGRID系统后，您可以使用NetApp数据服务进行备份、数据分层和数据同步。</block>
+  <block id="a904ec7788dd2ecae857966472095d9f" category="list-text">使用NetApp Backup and Recovery将数据从本地ONTAP系统备份到NetApp StorageGRID系统中的对象存储。</block>
+  <block id="fb1b3179d6c46954a36b92cac0736222" category="paragraph">首先，转到“*系统*”页面，然后将本地ONTAP系统拖放到您的StorageGRID系统上。</block>
+  <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">了解有关将本地ONTAP数据备份到StorageGRID 的更多信息</block>
+  <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
+  <block id="04affab1cdd3516658ad652fcfaf5a44" category="list-text">使用NetApp Cloud Tiering自动将非活动数据从本地ONTAP集群分层到StorageGRID。</block>
+  <block id="a7b3ca6a800aa86763c04f7fff5c0f0c" category="paragraph">首先，转到*系统*页面，然后将本地ONTAP系统拖放到StorageGRID系统上。</block>
+  <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">了解有关将数据从本地ONTAP集群分层到StorageGRID 的更多信息</block>
+  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
+  <block id="d84ae9c5fee4a20424a50b491bf9ca94" category="list-text">使用NetApp Copy and Sync将数据同步到StorageGRID系统同步数据。</block>
+  <block id="d95e5db4ff301d281f0779f0048181e8" category="paragraph">首先，转到*系统*页面并将源系统拖放到目标系统上。  StorageGRID可以是源，也可以是目标。</block>
+  <block id="3759d89c909b76c79aaa28ed2ce4306a" category="inline-link">了解有关NetApp Copy and Sync的更多信息</block>
+  <block id="cab10d8498bc6058193227ca80c2484e" category="paragraph"><block ref="cab10d8498bc6058193227ca80c2484e" category="inline-link-rx"></block></block>
+  <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp以多种方式为NetApp Console提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp以多种方式为NetApp Console及其云服务提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获取云提供商文件服务的支持</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品的文档。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">适用于ONTAP 的Amazon FSx</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">要获得特定于NetApp及其存储解决方案和数据服务的技术支持，请使用下面描述的支持选项。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助选项</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天、每天 24 小时免费提供：</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">您当前正在查看的NetApp Console文档。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">搜索NetApp知识库以查找有助于解决问题的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">加入NetApp Console社区，关注正在进行的讨论或创建新的讨论。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持创建案例</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外，您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">开始之前</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">了解如何管理与控制台登录相关的凭据</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">要使用“创建案例”功能，您必须首先将您的NetApp支持站点凭据与您的控制台登录关联。<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> 。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要为具有序列号的ONTAP系统打开案例，那么您的 NSS 帐户必须与该系统的序列号相关联。</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">在NetApp Console中，选择“帮助”&gt;“支持”。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在“*资源*”页面上，选择“技术支持”下的可用选项之一：</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人交谈，请选择“致电我们”。您将被引导至 netapp.com 上的一个页面，其中列出了您可以拨打的电话号码。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择“创建案例”向NetApp支持专家开具一张票：</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*服务*：选择与问题相关的服务。例如，* NetApp Console* 特定于控制台内的工作流或功能的技术支持问题。</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*系统*：如果适用于存储，请选择* Cloud Volumes ONTAP* 或 *On-Prem*，然后选择相关的工作环境。</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">系统列表位于控制台组织范围内，并且您在顶部横幅中选择了控制台代理。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级，可以是低、中、高或严重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先事项的更多详细信息，请将鼠标悬停在字段名称旁边的信息图标上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述*：提供问题的详细描述，包括任何适用的错误消息或您执行的故障排除步骤。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您想让其他人知道此问题，请输入其他电子邮件地址。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件（可选）*：一次最多上传五个附件。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每个附件文件大小限制为 25 MB。支持以下文件扩展名：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表单的屏幕截图，可让您向NetApp支持创建案例。</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">将会出现一个弹出窗口，其中显示您的支持案例编号。NetApp支持专家将审查您的案例并尽快回复您。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">要查看支持案例的历史记录，您可以选择*设置&gt;时间线*并查找名为“创建支持案例”的操作。最右边的按钮可让您展开操作以查看详细信息。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时，您可能会遇到以下错误消息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">“您无权针对所选服务创建案例”</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">此错误可能意味着 NSS 帐户及其关联的记录公司与NetApp Console帐户序列号的记录公司不同（即。960xxxx）或工作环境序列号。您可以使用以下选项之一寻求帮助：</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">管理您的支持案例</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">您可以直接从控制台查看和管理活动和已解决的支持案例。您可以管理与您的 NSS 帐户和公司相关的案例。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">页面顶部的案例管理仪表板提供两种视图：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左侧视图显示了您提供的用户 NSS 帐户在过去 3 个月内打开的案件总数。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右侧的视图根据您的用户 NSS 帐户显示了过去 3 个月内贵公司级别开设的案件总数。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表中的结果反映了与您选择的视图相关的案例。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列，并且可以过滤优先级和状态等列的内容。其他列仅提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">请查看以下步骤以了解更多详细信息。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案件级别，我们提供更新案件记录或关闭尚未关闭或待关闭状态的案件的功能。</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">在NetApp Console中，选择“帮助”&gt;“支持”。</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">选择*案例管理*，如果出现提示，请将您的 NSS 帐户添加到控制台。</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">*案例管理*页面显示与您的控制台用户帐户关联的 NSS 帐户相关的未结案例。这与出现在 *NSS 管理* 页面顶部的 NSS 帐户相同。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">（可选）修改表中显示的信息：</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在“组织的案例”下，选择“查看”以查看与您的公司相关的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择精确的日期范围或选择不同的时间范围来修改日期范围。</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">过滤列的内容。</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表格中出现的加号图标</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">通过选择<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block>然后选择您想要显示的列。</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最后一列中出现的带有三个点的图标</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">通过选择管理现有案例<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block>并选择其中一个可用选项：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例说明*：提供有关您的问题的更多详细信息，或选择*上传文件*以附加最多五个文件。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*结案*：提供有关结案原因的详细信息，然后选择*结案*。</block>
+  <block id="1c0cf398fca729802189afd04195daca" category="summary">由于证书可能会过期，您有时可能需要查看状态或更新证书。</block>
+  <block id="dd0d36f89a15258549e13613858361ef" category="doc">在NetApp Console中查看和更新​​ StorageGRID证书</block>
+  <block id="5327d9fc450204dcc46442e6725edae3" category="paragraph">在您从NetApp Console发现系统之前， StorageGRID系统上需要有管理接口证书。该证书在控制台和StorageGRID之间提供了安全连接。由于证书可能会过期，您有时可能需要查看状态或更新证书。</block>
+  <block id="c770cc35592d37d6c613acd34268446d" category="paragraph">存储管理员。<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
+  <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">查看管理接口证书的状态</block>
+  <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">查看StorageGRID系统的管理接口证书的状态，以验证该证书是否仍然有效。</block>
+  <block id="d98db4acfa58dea7d268506b66ad6e71" category="list-text">在*系统*页面上，选择StorageGRID系统。</block>
+  <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">从标准视图中，检查页面右侧“信息”窗格底部的用户批准证书的状态。</block>
+  <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">证书状态每24小时刷新一次。</block>
+  <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">更新管理接口证书</block>
+  <block id="7119ba4526ce61e0874111f9ae6c8000" category="paragraph">如果您的管理接口证书状态无效或您收到证书已过期的通知，则需要更新它，以便NetApp Console可以连接到StorageGRID。</block>
+  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">转到StorageGRID中的本地网格管理器并按照说明进行操作<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>。</block>
+  <block id="1155fb969d9717092513d154149e1f78" category="list-text">从NetApp Console导航菜单中，选择“存储”&gt;“管理”。</block>
+  <block id="40540158a277d365081d54ce377ee023" category="list-text">选择更多选项图标（带有三个垂直点的圆圈）。</block>
+  <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">更新菜单的屏幕截图。</block>
+  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">选择*更新证书*。</block>
+  <block id="434da4cffed06e08c23765d021db1afc" category="list-text">在“批准证书”页面上，选择“批准证书”以使用更新后的证书。</block>
+  <block id="49332d7ca8fe54f04384a507c81221de" category="summary">如果您不再想从NetApp Console管理StorageGRID系统，请将其删除。</block>
+  <block id="8fdc9e5c64bdc3bb9a007f8f53050a22" category="doc">删除StorageGRID系统</block>
+  <block id="db34e7c061d99f02326a1c25f6cdf6a9" category="paragraph">从控制台中删除系统不会影响StorageGRID系统。您可以随时将其重新添加到控制台。</block>
+  <block id="101a4dba130db08f412262b11097db65" category="list-text">从标准视图中，选择菜单图标并选择*从工作区中删除*。</block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">选择*删除*进行确认。</block>
+  <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">在向NetApp技术支持提交支持案例之前，您需要将NetApp支持站点帐户添加到NetApp Console，然后注册以获得支持。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">需要进行支持注册才能获得针对NetApp Console及其存储解决方案和数据服务的技术支持。还需要支持注册才能启用Cloud Volumes ONTAP系统的关键工作流程。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">注册支持并不能使NetApp获得云提供商文件服务的支持。有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品文档中的“获取帮助”。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持权利的注册方式有两种：</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">注册您的NetApp Console帐户序列号（您的 20 位 960xxxxxxxxx 序列号位于控制台中的“支持资源”页面上）。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">这可作为控制台内任何服务的单一支持订阅 ID。每个控制台帐户都必须注册。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在您的云提供商市场中注册与订阅相关的Cloud Volumes ONTAP序列号（这些是 20 位 909201xxxxxxxx 序列号）。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">这些序列号通常称为_PAYGO 序列号_，由NetApp Console在Cloud Volumes ONTAP部署时生成。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">注册两种类型的序列号可以实现开立支持票和自动生成案例等功能。通过将NetApp支持站点 (NSS) 帐户添加到控制台即可完成注册，如下所述。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">注册NetApp Console以获取NetApp支持</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">要注册支持并激活支持权利，您的NetApp Console帐户中的一名用户必须将NetApp支持站点帐户与其控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">拥有 NSS 帐户的现有客户</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">如果您是拥有 NSS 帐户的NetApp客户，则只需通过控制台注册即可获得支持。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">选择“*管理*”&gt;“*凭证*”。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭证*。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">选择*添加 NSS 凭据*并按照NetApp支持站点 (NSS) 身份验证提示进行操作。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择“帮助”图标，然后选择“*支持*”。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*资源*页面应显示您的控制台帐户已注册以获得支持。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">请注意，如果其他控制台用户尚未将NetApp支持站点帐户与其登录名关联，他们将看不到相同的支持注册状态。但是，这并不意味着您的帐户没有注册支持。只要组织中的一名用户遵循了这些步骤，您的帐户就已注册。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户但没有 NSS 账户</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">如果您是现有的NetApp客户，拥有现有许可证和序列号但没有 NSS 帐户，则需要创建一个 NSS 帐户并将其与您的控制台登录关联。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp支持站点用户注册表</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">通过完成以下操作创建NetApp支持站点帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别，通常为* NetApp客户/最终用户*。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">请务必复制上面用于序列号字段的控制台帐户序列号（960xxxx）。这将加快账户处理速度。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">完成以下步骤，将您的新 NSS 帐户与您的控制台登录名关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新产品</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp新用户并且没有 NSS 帐户，请按照以下步骤操作。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">在控制台的右上角，选择“帮助”图标，然后选择“*支持*”。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户 ID 序列号。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中支持是第一个选项</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支持注册网站</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>并选择*我不是注册的NetApp客户*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段（带有红色星号的字段）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中，选择*云管理器*，然后选择适用的计费提供商。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">从上面的步骤 2 复制您的帐户序列号，完成安全检查，然后确认您已阅读 NetApp 的全球数据隐私政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">一封电子邮件会立即发送到提供的邮箱以完成此安全交易。如果几分钟内没有收到验证电子邮件，请务必检查您的垃圾邮件文件夹。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">从电子邮件中确认操作。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">确认向NetApp提交您的请求并建议您创建NetApp支持站点帐户。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">请务必复制上面用于序列号字段的帐户序列号（960xxxx）。这将加快处理速度。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp应该在此过程中与您联系。这是针对新用户的一次性入职培训。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">拥有NetApp支持站点帐户后，请按照以下步骤将该帐户与您的控制台登录关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">关联 NSS 凭据以获得Cloud Volumes ONTAP支持</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">需要将NetApp支持站点凭据与您的控制台帐户关联，才能为Cloud Volumes ONTAP启用以下关键工作流程：</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">注册即用即付Cloud Volumes ONTAP系统以获得支持</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">需要提供您的 NSS 帐户才能激活对您的系统的支持并获得对NetApp技术支持资源的访问权限。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自带许可证 (BYOL) 时部署Cloud Volumes ONTAP</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">需要提供您的 NSS 帐户，以便控制台可以上传您的许可证密钥并启用您购买的期限的订阅。这包括期限续订的自动更新。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">将Cloud Volumes ONTAP软件升级到最新版本</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">将 NSS 凭据与您的NetApp Console帐户关联与将 NSS 帐户与控制台用户登录关联不同。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">这些 NSS 凭证与您的特定控制台帐户 ID 相关联。属于控制台组织的用户可以从*支持 &gt; NSS 管理*访问这些凭据。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客户级帐户，则可以添加一个或多个 NSS 帐户。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作伙伴或经销商帐户，则可以添加一个或多个 NSS 帐户，但不能与客户级帐户一起添加。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">选择*NSS 管理 &gt; 添加 NSS 帐户*。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">当出现提示时，选择“*继续*”以重定向到 Microsoft 登录页面。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用 Microsoft Entra ID 作为特定于支持和许可的身份验证服务的身份提供者。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面，提供您的NetApp支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">这些操作使控制台能够使用您的 NSS 帐户进行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 帐户必须是客户级帐户（不是访客或临时帐户）。您可以拥有多个客户级 NSS 帐户。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果该帐户是合作伙伴级别帐户，则只能有一个 NSS 帐户。如果您尝试添加客户级 NSS 帐户并且合作伙伴级帐户已存在，您将收到以下错误消息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">“此帐户不允许使用 NSS 客户类型，因为已经存在不同类型的 NSS 用户。”</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级 NSS 帐户并尝试添加合作伙伴级帐户，情况也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后， NetApp将存储 NSS 用户名。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三个水平点的图标</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的映射到您的电子邮件的 ID。在*NSS 管理*页面上，您可以显示来自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭证令牌，还有一个*更新凭证*选项<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。</block>
+  <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">发现StorageGRID系统后，您可以查看有关容量分布以及相关警报、节点和租户的详细信息。</block>
+  <block id="c20219c45cfba3fdfc2396d8aa96c143" category="doc">查看您的StorageGRID系统</block>
+  <block id="534a11c8fab2f45d8180a8b8c48cb1f0" category="list-text">在*系统*页面上，选择要查看的StorageGRID系统。</block>
+  <block id="f7129a1dc91c16787f11db8552772f5b" category="list-text">从可用的菜单选项中进行选择，以查看有关StorageGRID系统的更多详细信息：</block>
+  <block id="8cee006c52b25ffa341e9665d1f36032" category="list-text">*概览*：系统容量分布（已用和可用容量）、系统警报、节点和租户的数量等的详细视图。</block>
+  <block id="7a78715e6a36fa2dcf6896248ccc058c" category="list-text">*警报*：系统警报的摘要，包括活动警报、已解决的警报和静音警报。</block>
+  <block id="88a1a574aabf262882af454484c4f44f" category="list-text">*节点*：有关管理节点、API 网关节点和存储节点的详细信息。这包括使用的对象数据、使用的对象元数据和 CPU 使用率的百分比。</block>
+  <block id="91106c0a9a8679958f2d935850e42f7e" category="list-text">*租户*：有关租户的关键详细信息，包括使用的逻辑空间、配额利用率、配额和对象数量。</block>
+  <block id="e8d1456416daa95bfb687099cc3fbb58" category="summary">了解在NetApp Console中管理StorageGRID系统的新功能。</block>
+  <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID管理的新功能</block>
+  <block id="59adf231110f5ab5dfdc34e98dacaf75" category="paragraph">了解在NetApp Console中管理StorageGRID系统的新功能。</block>
+  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">2025年10月6日</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024年8月7日</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="2a5debfc305ca51b1d9a57049c60e8cb" category="sidebar">使用 Grid Manager 从NetApp Console管理您的StorageGRID系统，并使用NetApp数据服务进行备份、数据分层等。</block>
+  <block id="7b63e3ab012c50052cf80c91528ad009" category="sidebar">使用NetApp Console进行StorageGRID管理</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">开始使用</block>
+  <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">发现您的StorageGRID系统</block>
+  <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">管理StorageGRID系统</block>
+  <block id="5a48514fa915876d588438500b09c18f" category="sidebar">删除StorageGRID</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">更多信息</block>
+  <block id="0bbcb573e270ffdb861d546d2d507352" category="sidebar">用于NetApp Console之外的管理的StorageGRID文档</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp Console</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="67d5dc044866a0ff55b817d754d94a3e" category="sidebar">StorageGRID文档</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什么是新的</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">已知问题</block>
+  <block id="d85b01f001ee16ebd8eb1917c739d824" category="sidebar">了解StorageGRID系统</block>
+  <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">查看和更新​​ StorageGRID证书</block>
+  <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="sidebar">使用高级视图管理StorageGRID</block>
+  <block id="ae52ff2fa45ec695a0eb4dddc56142e2" category="sidebar">删除系统</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+</blocks>

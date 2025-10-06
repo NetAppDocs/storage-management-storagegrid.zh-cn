@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-support-registration.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
-summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp支持站点帐户添加到NetApp控制台，然后注册以获得支持。 
+summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp支持站点帐户添加到NetApp Console，然后注册以获得支持。 
 ---
 = 注册以获得支持
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 
 [role="lead"]
-需要进行支持注册才能获得针对NetApp控制台及其存储解决方案和数据服务的技术支持。还需要支持注册才能启用Cloud Volumes ONTAP系统的关键工作流程。
+需要进行支持注册才能获得针对NetApp Console及其存储解决方案和数据服务的技术支持。还需要支持注册才能启用Cloud Volumes ONTAP系统的关键工作流程。
 
 注册支持并不能使NetApp获得云提供商文件服务的支持。有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品文档中的“获取帮助”。
 
@@ -26,13 +26,13 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 激活支持权利的注册方式有两种：
 
-* 注册您的NetApp控制台帐户序列号（您的 20 位 960xxxxxxxxx 序列号位于控制台中的“支持资源”页面上）。
+* 注册您的NetApp Console帐户序列号（您的 20 位 960xxxxxxxxx 序列号位于控制台中的“支持资源”页面上）。
 +
 这可作为控制台内任何服务的单一支持订阅 ID。每个控制台帐户都必须注册。
 
 * 在您的云提供商市场中注册与订阅相关的Cloud Volumes ONTAP序列号（这些是 20 位 909201xxxxxxxx 序列号）。
 +
-这些序列号通常称为_PAYGO 序列号_，由NetApp控制台在Cloud Volumes ONTAP部署时生成。
+这些序列号通常称为_PAYGO 序列号_，由NetApp Console在Cloud Volumes ONTAP部署时生成。
 
 
 
@@ -40,9 +40,9 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 
 
-== 注册NetApp控制台以获取NetApp支持
+== 注册NetApp Console以获取NetApp支持
 
-要注册支持并激活支持权利，您的NetApp控制台帐户中的一名用户必须将NetApp支持站点帐户与其控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。
+要注册支持并激活支持权利，您的NetApp Console帐户中的一名用户必须将NetApp支持站点帐户与其控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。
 
 
 
@@ -123,7 +123,7 @@ NetApp应该在此过程中与您联系。这是针对新用户的一次性入�
 
 * 注册即用即付Cloud Volumes ONTAP系统以获得支持
 +
-需要提供您的 NSS 帐户才能激活对您的系统的支持并获得NetApp技术支持资源的访问权限。
+需要提供您的 NSS 帐户才能激活对您的系统的支持并获得对NetApp技术支持资源的访问权限。
 
 * 自带许可证 (BYOL) 时部署Cloud Volumes ONTAP
 +
@@ -132,7 +132,7 @@ NetApp应该在此过程中与您联系。这是针对新用户的一次性入�
 * 将Cloud Volumes ONTAP软件升级到最新版本
 
 
-将 NSS 凭据与您的NetApp控制台帐户关联与将 NSS 帐户与控制台用户登录关联不同。
+将 NSS 凭据与您的NetApp Console帐户关联与将 NSS 帐户与控制台用户登录关联不同。
 
 这些 NSS 凭证与您的特定控制台帐户 ID 相关联。属于控制台组织的用户可以从*支持 > NSS 管理*访问这些凭据。
 

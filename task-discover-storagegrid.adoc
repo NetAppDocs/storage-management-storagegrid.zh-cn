@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: 发现本地环境中的StorageGRID系统，然后使用 Grid Manager 直接从NetApp Console 管理它们。 
+summary: 发现本地环境中的StorageGRID系统，然后使用 Grid Manager 直接从NetApp Console管理它们。 
 ---
-= 将StorageGRID系统添加到NetApp控制台
+= 将StorageGRID系统添加到NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,15 @@ summary: 发现本地环境中的StorageGRID系统，然后使用 Grid Manager �
 
 
 [role="lead"]
-使用 Grid Manager 直接从NetApp Console 管理您的 StorageGrid 系统。
+使用 Grid Manager 直接从NetApp Console管理您的 StorageGrid 系统。
 
-.所需的NetApp控制台角色：
-存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台访问角色。"^]
+.所需的NetApp Console角色：
+存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console访问角色。"^]
 
 .开始之前
 您需要以下内容：
 
-* 使用版本 3.9.43 或更高版本的NetApp控制台代理。您必须具有组织管理员角色才能安装控制台代理。如果您不知道您的组织是否有控制台代理，或者是否需要创建一个控制台代理，请联系您的NetApp控制台管理员。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["联系您的组织管理员。"^]
+* 使用版本 3.9.43 或更高版本的NetApp Console代理。您必须具有组织管理员角色才能安装控制台代理。如果您不知道您的组织是否有控制台代理，或者是否需要创建一个控制台代理，请联系您的NetApp Console管理员。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["联系您的组织管理员。"^]
 * 管理节点的域名或IP地址。
 * 管理节点的管理员凭据。
 * 安装在StorageGRID系统上的管理接口证书。
@@ -50,14 +50,14 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 +
 .. 选择*批准证书*以使用该证书。
 +
-NetApp控制台显示成功消息，并通过验证已批准的证书来保护StorageGRID服务器和控制台代理之间的所有通信。
+NetApp Console显示成功消息，并通过验证已批准的证书来保护StorageGRID服务器和控制台代理之间的所有通信。
 
 .. 选择“*取消*”以结束发现过程而不验证证书。
 +
 例如，如果您收到一条错误消息，通知您需要更新StorageGRID管理证书，则可以选择“*取消*”。
 
 +
-要更新证书，请转到您的StorageGRID系统，更新证书，然后从NetApp控制台重新启动发现过程。
+要更新证书，请转到您的StorageGRID系统，更新证书，然后从NetApp Console重新启动发现过程。
 
 
 

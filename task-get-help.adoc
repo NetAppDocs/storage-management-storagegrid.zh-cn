@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-get-help.html 
 keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue 
-summary: 'NetApp以多种方式为NetApp控制台提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。' 
+summary: 'NetApp以多种方式为NetApp Console提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。' 
 ---
 = 获取帮助
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'NetApp以多种方式为NetApp控制台提供支持。全天候提供�
 
 
 [role="lead"]
-NetApp以多种方式为NetApp Console 及其云服务提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。
+NetApp以多种方式为NetApp Console及其云服务提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。
 
 
 
@@ -34,7 +34,7 @@ NetApp以多种方式为NetApp Console 及其云服务提供支持。全天候�
 
 * 文档
 +
-您当前正在查看的NetApp控制台文档。
+您当前正在查看的NetApp Console文档。
 
 * https://kb.netapp.com/Cloud/BlueXP["知识库"^]
 +
@@ -42,7 +42,7 @@ NetApp以多种方式为NetApp Console 及其云服务提供支持。全天候�
 
 * http://community.netapp.com/["社区"^]
 +
-加入NetApp控制台社区，关注正在进行的讨论或创建新的讨论。
+加入NetApp Console社区，关注正在进行的讨论或创建新的讨论。
 
 
 
@@ -58,7 +58,7 @@ NetApp以多种方式为NetApp Console 及其云服务提供支持。全天候�
 
 
 .步骤
-. 在NetApp控制台中，选择“帮助”>“支持”。
+. 在NetApp Console中，选择“帮助”>“支持”。
 . 在“*资源*”页面上，选择“技术支持”下的可用选项之一：
 +
 .. 如果您想通过电话与某人交谈，请选择“致电我们”。您将被引导至 netapp.com 上的一个页面，其中列出了您可以拨打的电话号码。
@@ -97,7 +97,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 
 “您无权针对所选服务创建案例”
 
-此错误可能意味着 NSS 帐户及其关联的记录公司与NetApp控制台帐户序列号的记录公司不同（即。960xxxx）或工作环境序列号。您可以使用以下选项之一寻求帮助：
+此错误可能意味着 NSS 帐户及其关联的记录公司与NetApp Console帐户序列号的记录公司不同（即。960xxxx）或工作环境序列号。您可以使用以下选项之一寻求帮助：
 
 * 提交非技术案例 https://mysupport.netapp.com/site/help[]
 
@@ -127,7 +127,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 
 
 .步骤
-. 在NetApp控制台中，选择“帮助”>“支持”。
+. 在NetApp Console中，选择“帮助”>“支持”。
 . 选择*案例管理*，如果出现提示，请将您的 NSS 帐户添加到控制台。
 +
 *案例管理*页面显示与您的控制台用户帐户关联的 NSS 帐户相关的未结案例。这与出现在 *NSS 管理* 页面顶部的 NSS 帐户相同。
