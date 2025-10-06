@@ -1,0 +1,9 @@
+= 对StorageGRID的支持
+:allow-uri-read: 
+
+
+
+
+=== 对StorageGRID的支持
+
+您现在可以直接从BlueXP发现您的StorageGRID系统。发现StorageGRID可为您提供混合多云数据的完整视图。

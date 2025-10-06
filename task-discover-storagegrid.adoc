@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: 发现本地环境中的StorageGRID系统，然后使用 Grid Manager 直接从NetApp Console 管理它们。 
+---
+= 将StorageGRID系统添加到NetApp控制台
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+使用 Grid Manager 直接从NetApp Console 管理您的 StorageGrid 系统。
+
+.所需的NetApp控制台角色：
+存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台访问角色。"^]
+
+.开始之前
+您需要以下内容：
+
+* 使用版本 3.9.43 或更高版本的NetApp控制台代理。您必须具有组织管理员角色才能安装控制台代理。如果您不知道您的组织是否有控制台代理，或者是否需要创建一个控制台代理，请联系您的NetApp控制台管理员。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["联系您的组织管理员。"^]
+* 管理节点的域名或IP地址。
+* 管理节点的管理员凭据。
+* 安装在StorageGRID系统上的管理接口证书。
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["了解有关在StorageGRID上安装管理接口证书的更多信息"^]
+
+
+
+.步骤
+. 从导航菜单中，选择*存储>管理*。
+. 选择*系统*。
+. 选择*添加系统*并选择*本地*。
+. 在* StorageGRID*旁边，选择*发现*。
+. 在控制台中的“StorageGRID 集群详细信息”页面上，输入管理节点的域名或 IP 地址、节点的凭据，然后选择“添加”。
+. 控制台自动检索StorageGRID管理接口证书。在“批准证书”页面上，查看证书详细信息。
+. 要使用不同的证书，请首先在StorageGRID系统上进行设置。
++
+.. 在您的本地StorageGRID系统中，请按照以下说明操作： https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安装管理接口证书"^] 。
+.. 在StorageGRID系统中配置证书后，在控制台中的“批准证书”页面上选择“*取消*”。
+.. 在“StorageGRID 集群详细信息”页面上，选择“添加”。
+
+
+. 或者，选择*复制证书*来复制证书的详细信息。如果需要，您可以使用证书详细信息执行额外的验证。
+. 执行以下操作之一：
++
+.. 选择*批准证书*以使用该证书。
++
+NetApp控制台显示成功消息，并通过验证已批准的证书来保护StorageGRID服务器和控制台代理之间的所有通信。
+
+.. 选择“*取消*”以结束发现过程而不验证证书。
++
+例如，如果您收到一条错误消息，通知您需要更新StorageGRID管理证书，则可以选择“*取消*”。
+
++
+要更新证书，请转到您的StorageGRID系统，更新证书，然后从NetApp控制台重新启动发现过程。
+
+
+
+

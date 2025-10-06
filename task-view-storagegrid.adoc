@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: 发现StorageGRID系统后，您可以查看有关容量分布以及相关警报、节点和租户的详细信息。 
+---
+= 查看您的StorageGRID系统
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+发现StorageGRID系统后，您可以查看有关容量分布以及相关警报、节点和租户的详细信息。
+
+.所需的NetApp控制台角色：
+存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台访问角色。"^]
+
+.步骤
+. 从导航菜单中，选择*存储>管理*。
+. 在*系统*页面上，选择要查看的StorageGRID系统。
+. 从可用的菜单选项中进行选择，以查看有关StorageGRID系统的更多详细信息：
++
+** *概览*：系统容量分布（已用和可用容量）、系统警报、节点和租户的数量等的详细视图。
+** *警报*：系统警报的摘要，包括活动警报、已解决的警报和静音警报。
+** *节点*：有关管理节点、API 网关节点和存储节点的详细信息。这包括使用的对象数据、使用的对象元数据和 CPU 使用率的百分比。
+** *租户*：有关租户的关键详细信息，包括使用的逻辑空间、配额利用率、配额和对象数量。
+
+
+

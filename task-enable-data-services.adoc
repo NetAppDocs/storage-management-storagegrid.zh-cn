@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
+summary: 在NetApp控制台中发现StorageGRID系统后，您可以使用 NetApp 的数据服务进行备份、数据分层和数据同步。 
+---
+= 将NetApp数据服务与StorageGRID结合使用
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在NetApp控制台中发现StorageGRID系统后，您可以使用NetApp数据服务进行备份、数据分层和数据同步。
+
+* 使用NetApp Backup and Recovery 将数据从本地ONTAP系统备份到NetApp StorageGRID系统中的对象存储。
++
+首先，转到“*系统*”页面，然后将本地ONTAP系统拖放到您的StorageGRID系统上。
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["了解有关将本地ONTAP数据备份到StorageGRID 的更多信息"^]
+
+* 使用NetApp Cloud Tiering 自动将非活动数据从本地ONTAP集群分层到StorageGRID。
++
+首先，转到*系统*页面，然后将本地ONTAP系统拖放到StorageGRID系统上。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["了解有关将数据从本地ONTAP集群分层到StorageGRID 的更多信息"^]
+
+* 使用NetApp Copy and Sync 将数据同步到StorageGRID系统同步数据。
++
+首先，转到*系统*页面并将源系统拖放到目标系统上。  StorageGRID可以是源，也可以是目标。
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["了解有关NetApp复制和同步的更多信息"^]
+
+

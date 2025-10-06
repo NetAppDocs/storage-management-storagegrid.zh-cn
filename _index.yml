@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: 使用NetApp Console 进行StorageGRID管理
+  summary: 使用 Grid Manager 从NetApp Console 管理您的StorageGRID系统，并使用NetApp数据服务进行备份、数据分层等。
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud, netapp console,
+    console
+  lead: 使用 Grid Manager 从NetApp Console 管理您的StorageGRID系统，并使用NetApp数据服务进行备份、数据分层等。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 发现您的StorageGRID系统
+      url: task-discover-storagegrid.html
+  - title: 管理StorageGRID系统
+    links:
+    - title: 查看您的StorageGRID系统
+      url: task-view-storagegrid.html
+    - title: 将NetApp数据服务与StorageGRID结合使用
+      url: task-enable-data-services.html
+    - title: 删除StorageGRID
+      url: task-remove-storagegrid.html
+  - title: 更多信息
+    links:
+    - title: 用于NetApp控制台之外的管理的StorageGRID文档
+      url: https://docs.netapp.com/us-en/storagegrid-118/
+  - title: 博客和社区
+    links:
+    - title: NetApp控制台
+      url: https://www.netapp.com/console
+    - title: NetApp数据服务
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 社区
+      url: https://community.netapp.com/

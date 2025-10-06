@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: 使用高级视图从NetApp控制台管理StorageGRID系统。此视图使您能够在NetApp控制台中使用 Grid Manager。 
+---
+= 使用NetApp控制台中的网格管理器管理StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+使用高级视图从控制台管理StorageGRID系统。此视图使您能够从控制台使用网格管理器。
+
+.所需的NetApp控制台角色：
+存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解访问角色。"^]
+
+
+
+== 支持的配置
+
+从StorageGRID 11.8 开始，Grid Manager 在控制台中可用。
+
+
+
+== 限制
+
+控制台无法执行以下网格管理器操作。如果需要执行这些操作，请直接登录网格管理器。
+
+[cols="1a,2a"]
+|===
+| 网格管理器菜单 | 控制台无法执行的操作 
+
+
+ a| 
+用户
+ a| 
+* 退出链接
+* API 文档链接
+* 更改密码
+
+
+
+
+ a| 
+节点
+ a| 
+* 您无法从节点 > SANtricity System Manager 选项卡访问SANtricity System Manager。
+* 查看警报时，您可能无法选择推荐操作中的所有链接。例如，指向不受支持的网格管理器页面的链接将不起作用。
+
+
+
+
+ a| 
+租户
+ a| 
+您无法从创建租户向导或租户页面登录租户帐户。
+
+控制台目前不支持租户管理器。虽然您可以从控制台创建新的租户帐户，但租户用户无法从控制台登录他们的帐户。
+
+
+
+ a| 
+ILM
+ a| 
+存储等级链接
+
+
+
+ a| 
+配置
+ a| 
+* 电网密码
+* 流量分类 > 指标
+* 安全设置 > 浏览器不活动超时
+* 单点登录
+* SNMP 代理 > BMC接口的 MIB 文件
+
+
+
+
+ a| 
+维护
+ a| 
+* 恢复包
+* 软件更新
+
+
+
+
+ a| 
+支持
+ a| 
+* 网格拓扑
+* 日志
+* 指标，包括 UI 中其他地方到 Prometheus 指标和 Grafana 仪表板的所有链接。
+* 所有传统警报选项
+* 链路成本
+* NMS实体
+
+
+|===
+
+
+== 切换到高级视图
+
+打开StorageGRID系统并选择高级视图选项。
+
+.步骤
+. 从*系统*页面打开StorageGRID系统。
+. 在右上角，选择*切换到高级视图*。
+. 使用 Grid Manager 管理StorageGRID系统。
+. 如果需要，选择“切换到标准视图”以通过控制台返回标准视图。
+
+
+
+
+== 获取网格管理器帮助
+
+如果您需要使用网格管理器的帮助，请参阅 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID文档"^]以获得分步说明。

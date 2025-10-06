@@ -1,0 +1,179 @@
+---
+sidebar: sidebar 
+permalink: task-support-registration.html 
+keywords: support registration, register for support, support, nss account, add nss account, 
+summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp支持站点帐户添加到NetApp控制台，然后注册以获得支持。 
+---
+= 注册以获得支持
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+需要进行支持注册才能获得针对NetApp控制台及其存储解决方案和数据服务的技术支持。还需要支持注册才能启用Cloud Volumes ONTAP系统的关键工作流程。
+
+注册支持并不能使NetApp获得云提供商文件服务的支持。有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品文档中的“获取帮助”。
+
+* link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html#getting-help["适用于ONTAP 的Amazon FSx"^]
+* link:https://docs.netapp.com/us-en/storage-management-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
+
+
+
+
+== 支持注册概述
+
+激活支持权利的注册方式有两种：
+
+* 注册您的NetApp控制台帐户序列号（您的 20 位 960xxxxxxxxx 序列号位于控制台中的“支持资源”页面上）。
++
+这可作为控制台内任何服务的单一支持订阅 ID。每个控制台帐户都必须注册。
+
+* 在您的云提供商市场中注册与订阅相关的Cloud Volumes ONTAP序列号（这些是 20 位 909201xxxxxxxx 序列号）。
++
+这些序列号通常称为_PAYGO 序列号_，由NetApp控制台在Cloud Volumes ONTAP部署时生成。
+
+
+
+注册两种类型的序列号可以实现开立支持票和自动生成案例等功能。通过将NetApp支持站点 (NSS) 帐户添加到控制台即可完成注册，如下所述。
+
+
+
+== 注册NetApp控制台以获取NetApp支持
+
+要注册支持并激活支持权利，您的NetApp控制台帐户中的一名用户必须将NetApp支持站点帐户与其控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。
+
+
+
+=== 拥有 NSS 帐户的现有客户
+
+如果您是拥有 NSS 帐户的NetApp客户，则只需通过控制台注册即可获得支持。
+
+.步骤
+. 选择“*管理*”>“*凭证*”。
+. 选择*用户凭证*。
+. 选择*添加 NSS 凭据*并按照NetApp支持站点 (NSS) 身份验证提示进行操作。
+. 要确认注册过程是否成功，请选择“帮助”图标，然后选择“*支持*”。
++
+*资源*页面应显示您的控制台帐户已注册以获得支持。
+
++
+请注意，如果其他控制台用户尚未将NetApp支持站点帐户与其登录名关联，他们将看不到相同的支持注册状态。但是，这并不意味着您的帐户没有注册支持。只要组织中的一名用户遵循了这些步骤，您的帐户就已注册。
+
+
+
+
+
+=== 现有客户但没有 NSS 账户
+
+如果您是现有的NetApp客户，拥有现有许可证和序列号但没有 NSS 帐户，则需要创建一个 NSS 帐户并将其与您的控制台登录关联。
+
+.步骤
+. 通过完成以下操作创建NetApp支持站点帐户 https://mysupport.netapp.com/site/user/registration["NetApp支持站点用户注册表"^]
++
+.. 请务必选择适当的用户级别，通常为* NetApp客户/最终用户*。
+.. 请务必复制上面用于序列号字段的控制台帐户序列号（960xxxx）。这将加快账户处理速度。
+
+
+. 完成以下步骤，将您的新 NSS 帐户与您的控制台登录名关联<<拥有 NSS 帐户的现有客户>>。
+
+
+
+
+=== NetApp全新产品
+
+如果您是NetApp新用户并且没有 NSS 帐户，请按照以下步骤操作。
+
+.步骤
+. 在控制台的右上角，选择“帮助”图标，然后选择“*支持*”。
+. 从支持注册页面找到您的帐户 ID 序列号。
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["帮助菜单的屏幕截图，其中支持是第一个选项"]
+
+. 导航至 https://register.netapp.com["NetApp 的支持注册网站"^]并选择*我不是注册的NetApp客户*。
+. 填写必填字段（带有红色星号的字段）。
+. 在*产品线*字段中，选择*云管理器*，然后选择适用的计费提供商。
+. 从上面的步骤 2 复制您的帐户序列号，完成安全检查，然后确认您已阅读 NetApp 的全球数据隐私政策。
++
+一封电子邮件会立即发送到提供的邮箱以完成此安全交易。如果几分钟内没有收到验证电子邮件，请务必检查您的垃圾邮件文件夹。
+
+. 从电子邮件中确认操作。
++
+确认向NetApp提交您的请求并建议您创建NetApp支持站点帐户。
+
+. 通过完成以下操作创建NetApp支持站点帐户 https://mysupport.netapp.com/site/user/registration["NetApp支持站点用户注册表"^]
++
+.. 请务必选择适当的用户级别，通常为* NetApp客户/最终用户*。
+.. 请务必复制上面用于序列号字段的帐户序列号（960xxxx）。这将加快处理速度。
+
+
+
+
+.完成后
+NetApp应该在此过程中与您联系。这是针对新用户的一次性入职培训。
+
+拥有NetApp支持站点帐户后，请按照以下步骤将该帐户与您的控制台登录关联<<拥有 NSS 帐户的现有客户>>。
+
+
+
+== 关联 NSS 凭据以获得Cloud Volumes ONTAP支持
+
+需要将NetApp支持站点凭据与您的控制台帐户关联，才能为Cloud Volumes ONTAP启用以下关键工作流程：
+
+* 注册即用即付Cloud Volumes ONTAP系统以获得支持
++
+需要提供您的 NSS 帐户才能激活对您的系统的支持并获得NetApp技术支持资源的访问权限。
+
+* 自带许可证 (BYOL) 时部署Cloud Volumes ONTAP
++
+需要提供您的 NSS 帐户，以便控制台可以上传您的许可证密钥并启用您购买的期限的订阅。这包括期限续订的自动更新。
+
+* 将Cloud Volumes ONTAP软件升级到最新版本
+
+
+将 NSS 凭据与您的NetApp控制台帐户关联与将 NSS 帐户与控制台用户登录关联不同。
+
+这些 NSS 凭证与您的特定控制台帐户 ID 相关联。属于控制台组织的用户可以从*支持 > NSS 管理*访问这些凭据。
+
+* 如果您有客户级帐户，则可以添加一个或多个 NSS 帐户。
+* 如果您有合作伙伴或经销商帐户，则可以添加一个或多个 NSS 帐户，但不能与客户级帐户一起添加。
+
+
+.步骤
+. 在控制台的右上角，选择“帮助”图标，然后选择“*支持*”。
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["帮助菜单的屏幕截图，其中支持是第一个选项"]
+
+. 选择*NSS 管理 > 添加 NSS 帐户*。
+. 当出现提示时，选择“*继续*”以重定向到 Microsoft 登录页面。
++
+NetApp使用 Microsoft Entra ID 作为特定于支持和许可的身份验证服务的身份提供者。
+
+. 在登录页面，提供您的NetApp支持站点注册的电子邮件地址和密码以执行身份验证过程。
++
+这些操作使控制台能够使用您的 NSS 帐户进行许可证下载、软件升级验证和未来支持注册等操作。
+
++
+请注意以下事项：
+
++
+** NSS 帐户必须是客户级帐户（不是访客或临时帐户）。您可以拥有多个客户级 NSS 帐户。
+** 如果该帐户是合作伙伴级别帐户，则只能有一个 NSS 帐户。如果您尝试添加客户级 NSS 帐户并且合作伙伴级帐户已存在，您将收到以下错误消息：
++
+“此帐户不允许使用 NSS 客户类型，因为已经存在不同类型的 NSS 用户。”
+
++
+如果您已有客户级 NSS 帐户并尝试添加合作伙伴级帐户，情况也是如此。
+
+** 成功登录后， NetApp将存储 NSS 用户名。
++
+这是系统生成的映射到您的电子邮件的 ID。在*NSS 管理*页面上，您可以显示来自image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["三个水平点的图标"]菜单。
+
+** 如果您需要刷新登录凭证令牌，还有一个*更新凭证*选项image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["三个水平点的图标"]菜单。
++
+使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。
+
+
+
+
