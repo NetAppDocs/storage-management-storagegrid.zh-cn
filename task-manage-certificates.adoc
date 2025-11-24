@@ -17,7 +17,7 @@ summary: 由于证书可能会过期，您有时可能需要查看状态或更�
 在您从NetApp Console发现系统之前， StorageGRID系统上需要有管理接口证书。该证书在控制台和StorageGRID之间提供了安全连接。由于证书可能会过期，您有时可能需要查看状态或更新证书。
 
 .所需的NetApp Console角色：
-存储管理员。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console访问角色。"^]
+存储管理员。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp Console访问角色"^]。
 
 
 
@@ -42,12 +42,12 @@ NOTE: 证书状态每24小时刷新一次。
 如果您的管理接口证书状态无效或您收到证书已过期的通知，则需要更新它，以便NetApp Console可以连接到StorageGRID。
 
 .步骤
-. 转到StorageGRID中的本地网格管理器并按照说明进行操作 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安装管理接口证书"]。
+. 请转到StorageGRID中的本地 Grid Manager，并按照以下说明操作： https://docs.netapp.com/us-en/storagegrid/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安装管理接口证书"] 。
 . 从NetApp Console导航菜单中，选择“存储”>“管理”。
 . 在*系统*页面上，选择StorageGRID系统。
-. 选择更多选项图标（带有三个垂直点的圆圈）。
+. 选择更多选项图标（带三个水平点的圆圈）。
 +
-image:screenshot-update-certificate.png["更新菜单的屏幕截图。"]
+image::screenshot-update-certificate.png[更新菜单的屏幕截图。]
 
 . 选择*更新证书*。
 . 在“批准证书”页面上，选择“批准证书”以使用更新后的证书。

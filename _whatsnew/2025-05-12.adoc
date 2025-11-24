@@ -1,9 +1,9 @@
-= 需要BlueXP访问角色
+= 需要NetApp Console访问角色
 :allow-uri-read: 
 
 
 
 
-=== 需要BlueXP访问角色
+=== 需要NetApp Console访问角色
 
-现在，您需要以下访问角色之一来查看、发现或管理BlueXP中的StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储健康专家*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]
+您现在需要以下访问角色之一才能在NetApp Console中查看、发现或管理StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储运行状况专家*。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["了解NetApp Console访问角色。"^]
