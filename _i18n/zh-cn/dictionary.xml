@@ -85,7 +85,6 @@
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">使用 Grid Manager 管理StorageGRID系统。</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">获取网格管理器帮助</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID文档</block>
-  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">如果您需要使用网格管理器的帮助，请参阅<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block>以获得分步说明。</block>
   <block id="d151acbef027ea9883e40b32274c5a04" category="summary">发现本地环境中的StorageGRID系统，然后使用 Grid Manager 直接从NetApp Console管理它们。</block>
   <block id="c10ae48739661aebcdebc04124762406" category="doc">将StorageGRID系统添加到NetApp Console</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">使用 Grid Manager 直接从NetApp Console管理您的 StorageGrid 系统。</block>
@@ -96,7 +95,6 @@
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理节点的管理员凭据。</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">安装在StorageGRID系统上的管理接口证书。</block>
   <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">了解有关在StorageGRID上安装管理接口证书的更多信息</block>
-  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
   <block id="c27deb5ada399336a287848889d2032c" category="list-text">从导航菜单中，选择*存储&gt;管理*。</block>
   <block id="a2bbc305e061bf1ea8c419672c377672" category="list-text">选择*系统*。</block>
   <block id="5211458073f915c9abf57481c61698ad" category="list-text">选择*添加系统*并选择*本地*。</block>
@@ -105,7 +103,6 @@
   <block id="c11467c66c9d20aefade3d8c6a472be6" category="list-text">控制台自动检索StorageGRID管理接口证书。在“批准证书”页面上，查看证书详细信息。</block>
   <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">要使用不同的证书，请首先在StorageGRID系统上进行设置。</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">在StorageGRID上安装管理接口证书</block>
-  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">在您的本地StorageGRID系统中，请按照以下说明操作：<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block> 。</block>
   <block id="9d802d0448e390fa63540342de811f28" category="list-text">在StorageGRID系统中配置证书后，在控制台中的“批准证书”页面上选择“*取消*”。</block>
   <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">在“StorageGRID 集群详细信息”页面上，选择“添加”。</block>
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">或者，选择*复制证书*来复制证书的详细信息。如果需要，您可以使用证书详细信息执行额外的验证。</block>
@@ -347,4 +344,7 @@
   <block id="3f4224139b9cbf910de436e966798772" category="list-text">选择更多选项图标（带三个水平点的圆圈）。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024年8月7日</block>
+  <block id="2091f731164c7be0cc441cb14dd7e0fb" category="paragraph">如果您在使用网格管理器时需要帮助，请参阅<block ref="a5ef9ecfc4cb4075bbcd8c75bedb3b47" category="inline-link-rx"></block> 请参考详细步骤说明。</block>
+  <block id="02e289e09609553bd74d5dda81ecb5e1" category="paragraph"><block ref="02e289e09609553bd74d5dda81ecb5e1" category="inline-link-rx"></block></block>
+  <block id="bc8c7fb093008fb3e0be35efca86b665" category="list-text">在您的本地StorageGRID系统中，请按照以下说明操作：<block ref="ccef0a266f4ff51bd9b89e82df562999" category="inline-link-rx"></block>。</block>
 </blocks>

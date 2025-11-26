@@ -31,7 +31,7 @@ summary: 使用高级视图从NetApp Console管理StorageGRID系统。此视图�
 
 控制台无法执行以下网格管理器操作。如果需要执行这些操作，请直接登录网格管理器。
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | 网格管理器菜单 | 控制台无法执行的操作 
 
@@ -120,4 +120,4 @@ ILM
 
 == 获取网格管理器帮助
 
-如果您需要使用网格管理器的帮助，请参阅 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID文档"^]以获得分步说明。
+如果您在使用网格管理器时需要帮助，请参阅 https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRID文档"^] 请参考详细步骤说明。

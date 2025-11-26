@@ -27,7 +27,7 @@ summary: 发现本地环境中的StorageGRID系统，然后使用 Grid Manager �
 * 管理节点的管理员凭据。
 * 安装在StorageGRID系统上的管理接口证书。
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["了解有关在StorageGRID上安装管理接口证书的更多信息"^]
+https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["了解有关在StorageGRID上安装管理接口证书的更多信息"^]
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 . 控制台自动检索StorageGRID管理接口证书。在“批准证书”页面上，查看证书详细信息。
 . 要使用不同的证书，请首先在StorageGRID系统上进行设置。
 +
-.. 在您的本地StorageGRID系统中，请按照以下说明操作： https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["在StorageGRID上安装管理接口证书"^] 。
+.. 在您的本地StorageGRID系统中，请按照以下说明操作： https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html["在StorageGRID上安装管理接口证书"^]。
 .. 在StorageGRID系统中配置证书后，在控制台中的“批准证书”页面上选择“*取消*”。
 .. 在“StorageGRID 集群详细信息”页面上，选择“添加”。
 
