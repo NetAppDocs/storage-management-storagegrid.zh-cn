@@ -18,10 +18,12 @@ summary: 了解在NetApp Console中管理StorageGRID系统的新功能。
 
 
 
+[[06-october-2025]]
 == 2025年10月6日
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP现在是NetApp Console
 
 NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
@@ -30,20 +32,24 @@ NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内
 
 
 
+[[12-may-2025]]
 == 2025年5月12日
 
 
 
+[[netapp-console-access-roles-needed]]
 === 需要NetApp Console访问角色
 
 您现在需要以下访问角色之一才能在NetApp Console中查看、发现或管理StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储运行状况专家*。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["了解NetApp Console访问角色。"^]
 
 
 
+[[07-august-2024]]
 == 2024年8月7日
 
 
 
+[[new-advanced-view]]
 === 新的高级视图
 
 从StorageGRID 11.8 开始，您可以使用熟悉的 Grid Manager 界面从BlueXP管理您的StorageGRID系统。
@@ -52,6 +58,7 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.htm
 
 
 
+[[ability-to-review-and-approve-storagegrid-management-interface-certificate]]
 === 能够审查和批准StorageGRID管理接口证书
 
 现在，您可以在从BlueXP发现StorageGRID系统时审查和批准StorageGRID管理接口证书。您还可以审查并批准已发现网格上的最新StorageGRID管理接口证书。
@@ -60,10 +67,12 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[
 
 
 
+[[18-september-2022]]
 == 2022年9月18日
 
 
 
+[[support-for-storagegrid]]
 === 对StorageGRID的支持
 
 您现在可以直接从BlueXP发现您的StorageGRID系统。发现StorageGRID可为您提供混合多云数据的完整视图。

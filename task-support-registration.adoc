@@ -22,6 +22,7 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 
 
+[[support-registration-overview]]
 == 支持注册概述
 
 激活支持权利的注册方式有两种：
@@ -40,12 +41,14 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 
 
+[[register-netapp-console-for-netapp-support]]
 == 注册NetApp Console以获取NetApp支持
 
 要注册支持并激活支持权利，您的NetApp Console帐户中的一名用户必须将NetApp支持站点帐户与其控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。
 
 
 
+[[existing-customer-with-an-nss-account]]
 === 拥有 NSS 帐户的现有客户
 
 如果您是拥有 NSS 帐户的NetApp客户，则只需通过控制台注册即可获得支持。
@@ -65,6 +68,7 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 
 
+[[existing-customer-but-no-nss-account]]
 === 现有客户但没有 NSS 账户
 
 如果您是现有的NetApp客户，拥有现有许可证和序列号但没有 NSS 帐户，则需要创建一个 NSS 帐户并将其与您的控制台登录关联。
@@ -81,6 +85,7 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 
 
 
+[[brand-new-to-netapp]]
 === NetApp全新产品
 
 如果您是NetApp新用户并且没有 NSS 帐户，请按照以下步骤操作。
@@ -89,7 +94,7 @@ summary: 在向NetApp技术支持提交支持案例之前，您需要将NetApp�
 . 在控制台的右上角，选择“帮助”图标，然后选择“*支持*”。
 . 从支持注册页面找到您的帐户 ID 序列号。
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["帮助菜单的屏幕截图，其中支持是第一个选项"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["帮助菜单的屏幕截图，其中支持是第一个选项"]
 
 . 导航至 https://register.netapp.com["NetApp 的支持注册网站"^]并选择*我不是注册的NetApp客户*。
 . 填写必填字段（带有红色星号的字段）。
@@ -117,6 +122,7 @@ NetApp应该在此过程中与您联系。这是针对新用户的一次性入�
 
 
 
+[[associate-nss-credentials-for-cloud-volumes-ontap-support]]
 == 关联 NSS 凭据以获得Cloud Volumes ONTAP支持
 
 需要将NetApp支持站点凭据与您的控制台帐户关联，才能为Cloud Volumes ONTAP启用以下关键工作流程：
@@ -143,7 +149,7 @@ NetApp应该在此过程中与您联系。这是针对新用户的一次性入�
 .步骤
 . 在控制台的右上角，选择“帮助”图标，然后选择“*支持*”。
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["帮助菜单的屏幕截图，其中支持是第一个选项"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["帮助菜单的屏幕截图，其中支持是第一个选项"]
 
 . 选择*NSS 管理 > 添加 NSS 帐户*。
 . 当出现提示时，选择“*继续*”以重定向到 Microsoft 登录页面。
@@ -168,9 +174,9 @@ NetApp使用 Microsoft Entra ID 作为特定于支持和许可的身份验证服
 
 ** 成功登录后， NetApp将存储 NSS 用户名。
 +
-这是系统生成的映射到您的电子邮件的 ID。在*NSS 管理*页面上，您可以显示来自image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["三个水平点的图标"]菜单。
+这是一个系统生成的 ID，映射到您的电子邮件。在 *NSS Management* 页面上，您可以从 image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["三个水平点的图标"] 菜单中显示您的电子邮件。
 
-** 如果您需要刷新登录凭证令牌，还有一个*更新凭证*选项image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["三个水平点的图标"]菜单。
+** 如果您需要刷新登录凭据令牌，image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["三个水平点的图标"] 菜单中还有 *Update Credentials* 选项。
 +
 使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。
 

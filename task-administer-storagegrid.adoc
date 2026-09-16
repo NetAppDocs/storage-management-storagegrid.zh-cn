@@ -17,16 +17,18 @@ summary: 使用高级视图从NetApp Console管理StorageGRID系统。此视图�
 使用高级视图从控制台管理StorageGRID系统。此视图使您能够从控制台使用网格管理器。
 
 .所需的NetApp Console角色：
-存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解访问角色"^]。
+超级管理员、存储管理员或系统健康专员。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解访问角色。"^]
 
 
 
+[[supported-configurations]]
 == 支持的配置
 
 从StorageGRID 11.8 开始，Grid Manager 在控制台中可用。
 
 
 
+[[limitations]]
 == 限制
 
 控制台无法执行以下网格管理器操作。如果需要执行这些操作，请直接登录网格管理器。
@@ -105,6 +107,7 @@ ILM
 |===
 
 
+[[switch-to-grid-manager]]
 == 切换到网格管理器
 
 打开StorageGRID系统并选择网格管理器选项。
@@ -118,6 +121,7 @@ ILM
 
 
 
+[[get-help-with-grid-manager]]
 == 获取网格管理器帮助
 
 如果您在使用网格管理器时需要帮助，请参阅 https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRID文档"^] 请参考详细步骤说明。
